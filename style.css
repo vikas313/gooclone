@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    
+    /* box-sizing: border-box; */
     font-size: 18px;
     
 
@@ -58,6 +58,11 @@ a{
     padding-left: 2rem;
     
 }
+@media only screen and (max-width: 700px) {
+    .logo>input {
+     width: 80%;
+    }
+  }
 
 .uil-search{
      position: absolute; 
@@ -67,6 +72,16 @@ a{
     font-size: 1rem;
 
 }
+@media only screen and (max-width: 700px) {
+    .uil-search{
+       
+        margin-left: -30rem;
+       
+   
+   }
+  }
+
+
 .uil-microphone{
    position: absolute;
    margin-top: 10.4rem;
@@ -75,6 +90,14 @@ a{
     font-size: 1rem;
 
 }
+@media only screen and (max-width: 700px) {
+    .uil-microphone{
+        
+          margin-left: 28rem;
+         
+     
+     }
+  }
 .logo .down{
     padding: 2rem;
  
@@ -110,14 +133,15 @@ a{
 footer{
     margin-top: 4rem;
     font-size: 1rem;
+    /* position: relative; */
 }
 .f1{
     height: 2.5rem;
     background-color:rgb(242,242,242) ;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-left: 1.5rem;
     text-align: left;
-    
+    /* width: 100%; */
     border-bottom: 0.04rem solid #DADCE0;
     color: #9A757A;
 }
