@@ -49,7 +49,11 @@ a{
 .logo img{
     padding: 2rem;
 }
-.logo>input{
+.bar{
+    width: 100%;
+    display: inline;
+}
+.bar>input{
     height: 2rem;
     border-radius: 3rem;
     outline: none;
@@ -58,46 +62,34 @@ a{
     padding-left: 2rem;
     
 }
-@media only screen and (max-width: 800px) {
-    .logo>input {
+@media only screen and (max-width: 700px) {
+    .bar>input {
      width: 80%;
     }
   }
 
-.uil-search{
-     position: absolute; 
-     margin-top: 10.4rem;
-     margin-left: -33rem;
-     z-index: 1;
-    font-size: 1rem;
 
+
+
+.uilsearch{
+
+height: 2rem;
+    display: inline;
+    position: relative;
+    left: 1.5rem;
+     top: 0.2rem;
+    /*left: -10.5rem; */
+    z-index: 1;
 }
-@media only screen and (max-width: 800px) {
-    .uil-search{
-       
-        margin-left: -30rem;
-       
-   
-   }
-  }
-
-
-.uil-microphone{
-   position: absolute;
-   margin-top: 10.4rem;
-     margin-left: 32rem;
-     z-index: 1;
-    font-size: 1rem;
-
+.uilmicro{
+    
+    display: inline;
+    position: relative;
+    top: -0.02rem;
+    left: -2rem;
 }
-@media only screen and (max-width: 700px) {
-    .uil-microphone{
-        
-          margin-left: 28rem;
-         
-     
-     }
-  }
+
+
 .logo .down{
     padding: 2rem;
  
@@ -134,6 +126,8 @@ footer{
     margin-top: 4rem;
     font-size: 1rem;
     /* position: relative; */
+    position: fixed;
+    width: 100%;
 }
 .f1{
     height: 2.5rem;
