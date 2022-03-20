@@ -145,6 +145,38 @@ footer{
     
     
 }
+@media only screen and (max-width: 800px) {
+    .footer{
+        
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(242,242,242)  ;
+        border-bottom: 0.04rem solid #DADCE0;
+        color: #9A757A;
+        
+       
+    }
+    .three{
+        display: flex;
+        padding-left: 1.5rem;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: red; */
+        
+        
+    }
+    .f2{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .fs{
+        display: flex;
+        justify-content: center;
+        
+    } 
+  }
+
 .f2{
     display: flex;
     justify-content: flex-start;
